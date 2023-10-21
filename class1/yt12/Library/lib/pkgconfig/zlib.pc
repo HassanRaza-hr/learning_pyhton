@@ -1,0 +1,13 @@
+prefix=F:/learning python/class1/yt12/Library
+exec_prefix=F:/learning python/class1/yt12/Library
+libdir=F:/learning python/class1/yt12/Library/lib
+sharedlibdir=F:/learning python/class1/yt12/Library/lib
+includedir=F:/learning python/class1/yt12/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
